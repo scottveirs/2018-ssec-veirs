@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8" />
+<title></title>
+</head>
+<body background = "images/orcaimagelite.jpg">
+<a id="forwardlink" href="3_.html"></a>
+<script type="text/javascript">
+var link = document.getElementById("forwardlink");
+
+document.onkeydown = function (e) {
+    if (e.keyCode == 32) {
+        link.click();
+    }
+};
+</script>
+</body>
+</html>
